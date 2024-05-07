@@ -33,13 +33,13 @@ Before beginning the exercise, it is important that you answer the following que
 
 > 💡 Do not hesitate to ask questions if you have difficulties understanding notions
 
-# Part 1
+## Part 1
 
 ### Step 1
 
 To get started, create your first `MyFirstApp` console application using dotnet.
 
-```txt
+```
 B0-HUB-C# $> tree MyFirstApp/
 MyFirstApp/
 ├── MyFirstApp.csproj
@@ -71,7 +71,7 @@ When a `Human` object is created, it should simply display the following sentenc
 Now, create an object of your `Human` class.
 Your program should display something like this:
 
-```txt
+```
 B0-HUB-C# $> dotnet run | echo $?
 Hello!$
 ```
@@ -94,7 +94,7 @@ Now, change the sentence displayed when an object of the Human class is created 
 Now, create an human who's name `Loic` and has 21 years old.
 Your program should display something like this:
 
-```txt
+```
 B0-HUB-C# $> dotnet run
 [Loic]: Hello!
 ```
@@ -113,7 +113,7 @@ Now, create an other human who's name `Romain` without specify the age.
 Then call the `howOldAreYou` function of the two object.
 Your program should display something like this:
 
-```txt
+```
 B0-HUB-C# $> dotnet run
 [Loic]: Hello!
 [Romain]: Hello!
@@ -125,7 +125,7 @@ B0-HUB-C# $> dotnet run
 
 Oops, there was a mistake in the prompt. Loic is actually 19 years old, not 21. Please update Loic's age and call the `howOldAreYou` function again.
 
-```txt
+```
 B0-HUB-C# $> dotnet run
 [Loic]: Hello!
 [Romain]: Hello!
@@ -140,7 +140,7 @@ Now, to develop the social skills of our humans, it would be nice if they could 
 
 Create a `talkWith` function that takes another `Human` object as a parameter and displays:
 
-```txt
+```
 Start dialogue between <name> and <name2>.
 [<name>]: Hello <name2>!
 [<name2>]: Hello <name>!
@@ -153,7 +153,7 @@ End dialogue between <name> and <name2>.
 
 The `talkWith` function can also take no parameters. In that case, the function will display:
 
-```txt
+```
 [<name>]: Hello ... Is there anyone?
 [<name>]: I'm speaking alone ...
 ```
@@ -168,7 +168,7 @@ Then create a talk between Paul.
 
 Your program should display something like this:
 
-```txt
+```
 B0-HUB-C# $> dotnet run
 [Loic]: Hello!
 [Paul]: Hello!
