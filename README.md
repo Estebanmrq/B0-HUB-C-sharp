@@ -33,7 +33,7 @@ Before beginning the exercise, it is important that you answer the following que
 
 > 💡 Do not hesitate to ask questions if you have difficulties understanding notions
 
-## Part 1
+## Part 1 - Basical notion
 
 ### Step 1
 
@@ -186,3 +186,20 @@ End dialogue between Loic and Paul.
 [Paul]: Hello ... Is there anyone?
 [Paul]: I'm speaking alone ...
 ```
+
+## Part 2 - Inheritance principle
+
+### Step 1
+
+Use the principle of inheritance in C# to create a `Teacher` class that inherits the `Human` class and has a `learn` function that takes as a parameter an `Human` class object and then creates a short dialogue between the teacher and our human.
+
+### Step 2
+
+Now test this same principle by creating different jobs.
+Example: Baker, Doctor ...
+
+> 💡This part is not necessarily the most interesting but allows you to familiarize yourself with the principle of inheritance in c#
+
+## Part 3 - Create a game
+
+Now use all that you have learned to please yourself and create a small console game.
